@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>Te04</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="2">동아리 회원 가입</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>아이디</td>
+            <td><input type="text" name="id"></td>
+        </tr>
+        <tr>
+            <td>패스워드</td>
+            <td><input type="text" name="pw"></td>
+        </tr>
+        <tr>
+            <td>메일주소</td>
+            <td><input type="text" name="mail"></td>
+        </tr>
+        <tr>
+            <td>학년</td>
+            <td>
+                <input type="radio" name="age">1학년
+                <input type="radio" name="age">2학년
+                <input type="radio" name="age">3학년
+                <input type="radio" name="age">4학년
+            </td>
+        </tr>
+        <tr>
+            <td>전공</td>
+            <td>
+                <select name="major">
+                    <option>스마트iot</option>
+                    <option>컨텐츠it</option>
+                    <option>빅데이터</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>관심분야</td>
+            <td>
+                <input type="checkbox" name="fav">프론트엔드
+                <input type="checkbox" name="fav">백엔드
+                <input type="checkbox" name="fav">풀스텍
+                <input type="checkbox" name="fav">프레임워크
+            </td>
+        </tr>
+        <tr>
+            <td>자기소개서</td>
+            <td><input type="file" name="self"></td>
+        </tr>
+        <tr>
+            <td>생년월일</td>
+            <td><input type="date" name="day"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="button" value="가입">
+                <input type="button" value="재작성">
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,30 @@
+h2 {
+    color: green;
+}
+.main_list {
+    background-color: beige;
+    color: blue;
+    width: 30vw;
+}
+.main_list_element {
+    background-color: thistle;
+    width: 60%;
+}
+.even {
+    color: coral;
+}
+.odd {
+    color: greenyellow;
+}
+#index_1 {
+    color: brown;
+}
+#index_2 {
+    color: chocolate;
+}
+#index_3 {
+    color: red;
+}
+#index_4 {
+    color: coral;
+}

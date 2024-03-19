@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <link href="Te10/style.css" type="text/css" rel="stylesheet">
+    <title>Te10</title>
+    <style>
+        input[type="text"]{
+            background-color: yellow;
+        }
+        #main_table {
+            background-color: bisque;
+        }
+        .odd {
+            background-color: rgb(83, 199, 199);
+        }
+        .even {
+            background-color: rgb(62, 153, 220);
+        }
+        .category {
+            background-color: purple;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<table border="1" id="main_table">
+    <thead>
+    <tr>
+        <th colspan="2">동아리 회원 가입</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td class="category">아이디</td>
+        <td class="odd"><input type="text" name="id"></td>
+    </tr>
+    <tr>
+        <td class="category">패스워드</td>
+        <td class="even"><input type="text" name="pw"></td>
+    </tr>
+    <tr>
+        <td class="category">메일주소</td>
+        <td class="odd"><input type="text" name="mail"></td>
+    </tr>
+    <tr>
+        <td class="category">학년</td>
+        <td class="even">
+            <input type="radio" name="age">1학년
+            <input type="radio" name="age">2학년
+            <input type="radio" name="age">3학년
+            <input type="radio" name="age">4학년
+        </td>
+    </tr>
+    <tr>
+        <td class="category">전공</td>
+        <td class="odd">
+            <select name="major">
+                <option>스마트iot</option>
+                <option>컨텐츠it</option>
+                <option>빅데이터</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td class="category">관심분야</td>
+        <td class="even">
+            <input type="checkbox" name="fav">프론트엔드
+            <input type="checkbox" name="fav">백엔드
+            <input type="checkbox" name="fav">풀스텍
+            <input type="checkbox" name="fav">프레임워크
+        </td>
+    </tr>
+    <tr>
+        <td class="category">자기소개서</td>
+        <td class="odd"><input type="file" name="self"></td>
+    </tr>
+    <tr>
+        <td class="category">생년월일</td>
+        <td class="even"><input type="date" name="day"></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+            <input type="button" value="가입">
+            <input type="button" value="재작성">
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

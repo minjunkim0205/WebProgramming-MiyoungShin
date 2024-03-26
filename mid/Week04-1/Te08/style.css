@@ -1,0 +1,9 @@
+body > div:nth-child(n){
+    border: 1px solid red;
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 10px;
+}
+body > div > h3:hover{
+    color: green;
+}

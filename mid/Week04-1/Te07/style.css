@@ -1,0 +1,22 @@
+body > div{
+    border: 1px dashed red;
+    width: 100px;
+    height: 100px;
+    align-content: normal;
+    margin: 15px;
+}
+body > div > p{
+    text-align: center;
+}
+body > div:hover {
+    border-radius: 15px;
+}
+body > div:nth-child(1):hover{
+    background-color: darkseagreen;
+}
+body > div:nth-child(2):hover{
+    background-color: lightpink;
+}
+body > div:nth-child(3):hover{
+    background-color: lightskyblue;
+}

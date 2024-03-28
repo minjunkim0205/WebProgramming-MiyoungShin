@@ -1,0 +1,8 @@
+div {
+    width: 500px;
+    background-color: azure;
+    font-size: 14px;
+}
+body > div > h3{
+    color: cyan;
+}

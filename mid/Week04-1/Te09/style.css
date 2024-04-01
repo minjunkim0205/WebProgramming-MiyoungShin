@@ -3,6 +3,18 @@ div {
     background-color: azure;
     font-size: 14px;
 }
-body > div > h3{
+body > div > hr + h3{
     color: cyan;
+}
+body > div > h3 + span{
+    color: crimson;
+}
+body > div > span ~ ul{
+    color: darkred;
+}
+body > div > h3 ~ details{
+    color: blue;
+}
+body > div > details > summary + p{
+    color: blueviolet;
 }

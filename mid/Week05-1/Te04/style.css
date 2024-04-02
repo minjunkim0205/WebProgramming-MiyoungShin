@@ -1,0 +1,13 @@
+body > div{
+    --margin: 5px;
+    width: calc((100% / 3) - (var(--margin) * 2));
+    height: 150px;
+    margin: var(--margin);
+    float: left;
+}
+body > div:nth-child(2n+1){
+    background-color: coral;
+}
+body > div:nth-child(2n){
+    background-color: cornflowerblue;
+}

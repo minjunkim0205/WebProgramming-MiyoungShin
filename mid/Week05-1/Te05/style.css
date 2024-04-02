@@ -1,0 +1,39 @@
+body > div{
+    width: 400px;
+    height: 200px;
+    border: 2px solid red;
+}
+body > #container{
+    position: relative;
+}
+body > div > .circle {
+    --radius : 70px;
+    width: var(--radius);
+    height: var(--radius);
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+body > div > #red{
+    background-color: red;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+body > div > #green{
+    background-color: green;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+body > div > #blue{
+    background-color: blue;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+body > div > #yellow{
+    background-color: yellow;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}

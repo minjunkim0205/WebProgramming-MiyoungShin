@@ -1,0 +1,21 @@
+body > div{
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    float: left;
+}
+body > div:nth-child(1){
+    background-image: url('./img/test_img.png');
+    background-size: cover;
+    border: 15px groove yellow;
+}
+body > div:nth-child(2){
+    background-color: mediumaquamarine;
+    border-top: 5px dashed blue;
+}
+body > div:nth-child(3){
+    background-color: darkcyan;
+    border-bottom: 5px solid darkslategrey;
+}

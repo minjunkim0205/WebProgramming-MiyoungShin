@@ -1,0 +1,18 @@
+body > div{
+    width: 400px;
+    height: 300px;
+    border: 5px dashed orange;
+    padding: 10px;
+    margin: 0;
+    background-image: url("./img/test_img_01.png");
+    position: relative;
+    display: inline-block;
+}
+body > div:hover{
+    border: 5px ridge orange;
+    background-image: url("./img/test_img_02.png");
+}
+body > div > hr{
+    height: 2px;
+    background-color: red;
+}

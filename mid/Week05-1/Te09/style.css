@@ -1,0 +1,16 @@
+body > nav > ul {
+    list-style-type: none;
+    padding: 1px;
+    background-color: darkgoldenrod;
+}
+body > nav > ul > li {
+    display: inline-block;
+    padding: 10px;
+}
+body > nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+body > nav > ul > li > a:hover {
+    color: palevioletred;
+}

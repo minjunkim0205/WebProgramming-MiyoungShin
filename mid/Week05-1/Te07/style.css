@@ -3,13 +3,15 @@ body > div{
     height: 300px;
     border: 5px dashed orange;
     padding: 10px;
-    margin: 0;
+    margin-top: 10px;
+    margin-left: 50px;
     background-image: url("./img/test_img_01.png");
-    position: relative;
-    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: bottom 1px left 1px;
+    background-size: calc(30%);
 }
 body > div:hover{
-    border: 5px ridge orange;
+    border: 5px dashed darkorange;
     background-image: url("./img/test_img_02.png");
 }
 body > div > hr{

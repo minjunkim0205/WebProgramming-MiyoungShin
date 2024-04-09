@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.content > ul > li{
+    list-style-type: none;
+    padding: 24px 0px;
+    border-bottom: 1px solid red;
+}
+
+@media all and (orientation: portrait){
+    div.left{
+        display: none;
+    }
+}
+@media all and (orientation: landscape){
+    div.left{
+        width: 30vw;
+    }
+    div.right{
+        width: 70vw;
+    }
+}

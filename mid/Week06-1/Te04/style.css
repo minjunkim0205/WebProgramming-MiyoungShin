@@ -1,0 +1,11 @@
+body > div > img{
+    --img_size:100px;
+    width: var(--img_size);
+    height: var(--img_size);
+    border-radius: var(--img_size);
+    margin: 20px;
+    float: left;
+}
+body > div{
+    float: left;
+}

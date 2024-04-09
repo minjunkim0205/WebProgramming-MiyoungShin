@@ -1,0 +1,9 @@
+body > ul {
+    width: 350px;
+    border-radius: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+    padding: 5px;
+}

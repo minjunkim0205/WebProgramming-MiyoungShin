@@ -1,0 +1,46 @@
+:root {
+    --radius: 70px;
+}
+body > div {
+    width: 400px;
+    height: 200px;
+    border: 2px solid red;
+    position: relative;
+    overflow: hidden;
+}
+body > div > .circle {
+    width: var(--radius);
+    height: var(--radius);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    transition: transform 0.2s;
+}
+
+body > div > #red {
+    background-color: red;
+    left: 10px;
+    top: calc(var(--radius) / 2 * -1);
+}
+body > div > #green {
+    background-color: green;
+    right: 10px;
+    top: calc(var(--radius) / 2 * -1);
+}
+body > div > #blue {
+    background-color: blue;
+    right: 10px;
+    bottom: calc(var(--radius) / 2 * -1);
+}
+body > div > #yellow {
+    background-color: yellow;
+    left: 10px;
+    bottom: calc(var(--radius) / 2 * -1);
+}
+
+body > div > #red:hover, #green:hover {
+    transform: translateY(calc(var(--radius) / 2 + 10px));
+}
+body > div > #yellow:hover, #blue:hover {
+    transform: translateY(calc(var(--radius) / 2 * -1 - 10px));
+}

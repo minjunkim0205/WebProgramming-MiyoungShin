@@ -1,23 +1,35 @@
-*{
+/* 초기화 */
+* {
     margin: 0;
     padding: 0;
 }
-div.content > ul > li{
+li {
     list-style-type: none;
-    padding: 24px 0px;
-    border-bottom: 1px solid red;
 }
-
-@media all and (orientation: portrait){
-    div.left{
+/* 반응형 웹 */
+@media only screen and (orientation: portrait) {
+    .left {
         display: none;
     }
 }
-@media all and (orientation: landscape){
-    div.left{
-        width: 30vw;
+@media only screen and (orientation: landscape) {
+    .left {
+        width: 30%;
+        float: left;
     }
-    div.right{
-        width: 70vw;
+    .right {
+        width: 70%;
+        float: left;
     }
+}
+/* 기본 콘텐츠 구성 */
+.container {
+    display: flex;
+}
+.content {
+    padding: 16px;
+}
+li {
+    padding: 24px 0;
+    border-bottom: 1px solid #c7c7c7;
 }

@@ -1,0 +1,11 @@
+body > #box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+body > #box:hover{
+    background-color: blue;
+}
+body > #box:focus{
+    background-color: red;
+}

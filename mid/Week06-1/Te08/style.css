@@ -14,7 +14,7 @@ body > div > .circle {
     border: 1px solid transparent;
     border-radius: 50%;
     position: absolute;
-    transition: transform 0.2s;
+    transition: transform 0.1s;
 }
 
 body > div > #red {

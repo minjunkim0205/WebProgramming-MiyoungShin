@@ -1,0 +1,15 @@
+.conbox{
+    width: 100px;
+    height: 100px;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+.con1{
+    background-image: url("./img/01.jpg");
+}
+.con2{
+    background-image: url("./img/02.jpg");
+}
+.con3{
+    background-image: url("./img/03.jpg");
+}

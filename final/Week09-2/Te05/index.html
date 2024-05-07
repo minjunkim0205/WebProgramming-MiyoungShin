@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <!--<script src="./script.js" type="text/javascript"></script>-->
+    <title>Te05</title>
+</head>
+<body>
+    <h1>Cities</h1>
+    <ul>
+        <li id="one" class="red">hallym</li>
+        <li id="two" class="red">bigdata</li>
+        <li id="three" class="red">smartIoT</li>
+        <li id="four" class="red">contentIoT</li>
+    </ul>
+    <script>
+        // 클래스 애트리뷰트의 값을 'blue'로 변경
+        const elements = document.getElementsByClassName("red");
+        [...elements].forEach(_value => _value.className = "blue");
+        /*
+        for (let element of [...elements]) {
+            element.className = "blue";
+        }   
+        */
+        // id 선택자를 사용하여 li 요소의 글자색을 변경
+        const li_one = document.querySelector("#one");
+        li_one.style.color = "red";
+        const li_two = document.querySelector("#two");
+        li_two.style.color = "blue";
+        const li_three = document.querySelector("#three");
+        li_three.style.color = "orange";
+        const li_four = document.querySelector("#four");
+        li_four.style.color = "green";
+    </script>
+</body>
+</html>

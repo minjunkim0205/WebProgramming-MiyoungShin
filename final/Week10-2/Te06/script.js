@@ -1,4 +1,4 @@
-const change = () => {
+const main = () => {
     const checkButton = document.querySelector("input[type='button']")
     checkButton.addEventListener("click", function () {
         const checkedCheckboxes = document.querySelectorAll("input[type='checkbox']:checked");
@@ -9,4 +9,4 @@ const change = () => {
         alert("체크된 항목: " + checkedValues.join(", "));
     });
 }
-window.onclick = change;
+window.onclick = main;

@@ -1,0 +1,6 @@
+body > h4:nth-child(2n+1){
+    background-color: yellow;
+}
+body > h4:nth-child(2n){
+    background-color: gray;
+}

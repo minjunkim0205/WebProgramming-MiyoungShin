@@ -22,3 +22,5 @@ function main() {
     //객체 리터럴 obj를 디스트럭처링 할당하여 함수 spread() 매개변수로 전달하여 출력
     spread(obj);
 }
+
+window.onload = main;

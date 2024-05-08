@@ -15,15 +15,10 @@
         <li id="four" class="red">contentIoT</li>
     </ul>
     <script>
-        // 클래스 애트리뷰트의 값을 'blue'로 변경
+        // Class "red" to "blue"
         const elements = document.getElementsByClassName("red");
         [...elements].forEach(_value => _value.className = "blue");
-        /*
-        for (let element of [...elements]) {
-            element.className = "blue";
-        }   
-        */
-        // id 선택자를 사용하여 li 요소의 글자색을 변경
+        // Change tag "li" style.color
         const li_one = document.querySelector("#one");
         li_one.style.color = "red";
         const li_two = document.querySelector("#two");

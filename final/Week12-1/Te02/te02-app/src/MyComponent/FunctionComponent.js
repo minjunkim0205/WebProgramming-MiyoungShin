@@ -8,6 +8,6 @@ const FunctionComponent = ({title, content, id, children}) => {
         <h2>{children ? children : "children 속성 없음"}</h2>
       </div>
     </div>
-    );
+  );
 }
 export default FunctionComponent;

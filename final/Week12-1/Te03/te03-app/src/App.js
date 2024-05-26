@@ -1,12 +1,18 @@
 import { Fragment } from "react";
 import './App.css';
 
-import Message from "./MyComponent/Message";
+import ClassMessage from "./MyComponent/ClassMessage";
+import FunctionMessage from "./MyComponent/FunctionMessage";
 
 function App() {
   return (
     <Fragment>
-      <Message/>
+      <h1>[ Function ]</h1>
+      <FunctionMessage/>
+      <hr/>
+      <h1>[ Class ]</h1>
+      <ClassMessage/>
+      <hr/>
     </Fragment>
   )
 }

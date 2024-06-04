@@ -1,12 +1,11 @@
 import './App.css';
 
-import ListItem from './MyCompnent/ListItem';
+import TextFocus from "./MyComponent/TextFocus.js";
 
 function App() {
   return (
     <div>
-      <h2>MT 참여 명단</h2>
-      <ListItem />
+      <TextFocus />
     </div>
   );
 }

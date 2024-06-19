@@ -1,11 +1,11 @@
 import './App.css';
 
-import Ex07 from "./MyComponent/Ex07.js";
+import Ex00 from "./MyComponent/Ex00.js";
 
 function App() {
   return (
     <div>
-      <Ex07/>
+      <Ex00/>
     </div>
   );
 }

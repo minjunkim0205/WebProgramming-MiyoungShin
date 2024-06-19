@@ -1,6 +1,5 @@
 import React from "react";
-import { useRef } from "react";
-import { useEffect } from "react";
+import { useRef, useEffect } from "react";
 
 const Ex05 = () => {
   const target = useRef(null);
